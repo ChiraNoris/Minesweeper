@@ -68,6 +68,8 @@ document.addEventListener("DOMContentLoaded", () => {
   }
   createBoard();
 });
+
+console.log(createBoard());
 //click on square action
 
 function click(square) {
