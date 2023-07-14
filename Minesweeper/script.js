@@ -69,7 +69,6 @@ document.addEventListener("DOMContentLoaded", () => {
   createBoard();
 });
 
-console.log(createBoard());
 //click on square action
 
 function click(square) {
@@ -92,7 +91,7 @@ function click(square) {
   square.classList.add("checked");
 }
 
-//check neighboring squares once square is clicked
+//check neighboring squares once square is clicked 
 
 function checkSquare(square, currentId) {
   const isLeftEdge = currentId % width === 0;
